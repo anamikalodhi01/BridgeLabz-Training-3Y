@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TwoDToOneDArray {
+public class CopyTwoDToOneDArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter rows: ");

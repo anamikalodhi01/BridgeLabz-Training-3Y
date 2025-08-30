@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class YoungestTallest {
+public class FriendsAgeHeight {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] age = new int[3];
