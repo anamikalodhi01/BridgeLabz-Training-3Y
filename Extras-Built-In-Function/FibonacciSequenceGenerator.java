@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class FibonacciSequenceGenerator {
+
+    public static void generateFibonacci(int terms) {
+        int a = 0, b = 1;
+        System.out.print("Fibonacci: " + a + " " + b);
+        for (int i = 3; i <= terms; i++) {
+            int c = a + b;
+            System.out.print(" " + c);
+            a = b;
+            b = c;
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number of terms: ");
+        int terms = sc.nextInt();
+        generateFibonacci(terms);
+    }
+}
