@@ -1,11 +1,11 @@
-class LibraryBookSystem {
+class LibraryBook {
     String title;
     String author;
     double price;
     boolean available;
 
     // Constructor
-    LibraryBookSystem(String title, String author, double price) {
+    LibraryBook(String title, String author, double price) {
         this.title = title;
         this.author = author;
         this.price = price;
